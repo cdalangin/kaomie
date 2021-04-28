@@ -28,7 +28,7 @@ nav li {
 
 nav a {
     font-weight: 900;
-    color: #ff8585;
+    color: #f4eee8;
     text-decoration: none;
     font-size: 20px;
     padding: 10px;
@@ -46,7 +46,7 @@ nav a:focus {
     background-size: cover;
     background-position: center;
     /* padding: 10px; */
-    color: #ff8585;
+    color: #f5cebe;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -80,19 +80,19 @@ nav a:focus {
 }
 
 .button-accent {
-    color: #ff4646;
+    color: #f4eee8;
 }
 
 .button-accent:hover,
 .button-accent:focus{
-    background: #ff4646;
-    color: #ff8585;
-    border-color: #ff4646;
+    background: #f4eee8;
+    color: #325288;
+    border-color: #f4eee8;
 }
 
 /* About */
 
-.container {
+.about-container {
     max-height: 90em;
     margin: 0;
     background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(img/platter.jpg);
@@ -102,12 +102,12 @@ nav a:focus {
 
 
 .home-about-textbox {
-    background-color: #ccafaf;
+    background-color: #f5cebe;
     width: 50%;
     height: 500px;
-    outline: 2px solid #900c3f;
+    outline: 2px solid #325288;
     outline-offset: -50px;
-    color: #fff; 
+    color: #325288; 
     position: relative;
     display: flex;
     justify-content: center;
@@ -115,25 +115,31 @@ nav a:focus {
 }
 
 .home-about-textbox h1 {
-    color: #900c3f;
+    color: #325288;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 10px;
-    background: #ccafaf;
+    top: 25px;
+    background: #f5cebe;
 }
 
-p {
+.home-about-textbox p {
     margin: auto;
     padding: 0 70px;
     line-height: 1.5;
+}
+
+/* Carousel */
+
+.carousel {
+    background-color: #f4eee8;
 }
 
 /* Footer */
 .footer {
     width: 100%;
     height: 250px;
-    background-color: #007944;
+    background-color: #114e60;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -145,10 +151,11 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-content: space-around;
 }
 
 .sections a, .sections p {
-    color: #ff8585;
+    color: #f5cebe;
     font-weight: 400;
     text-align: center;
     line-height: 1.5;
@@ -158,6 +165,6 @@ p {
 .footer-title {
     font-size: 25px;
     font-weight: 600;
-    color: #ff4646;
+    color: #f5cebe;
     margin-top: 0;
 }
