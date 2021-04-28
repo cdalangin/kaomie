@@ -1,0 +1,163 @@
+@import
+url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900");
+
+body{
+    margin: 0;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+/* Nav Bar */
+
+header {
+    right: 0;
+    position: absolute;
+    margin-top: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 15px;
+}
+
+nav a {
+    font-weight: 900;
+    color: #ff8585;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #DDD;
+}
+
+/* Landing */
+
+.landing {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/peacock.jpg);
+    background-size: cover;
+    background-position: center;
+    /* padding: 10px; */
+    color: #ff8585;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title {
+    font-weight: 700;
+    font-size: 80px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.title span {
+    font-weight: 300;
+    display:block;
+    font-size: 2.2rem;
+    padding: 0 70px;
+}
+
+.button {
+    /* display: inline-block; */
+    font-size: 1.15rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 4px;
+    padding: .5em 1.75em;
+    border-style: solid;
+}
+
+.button-accent {
+    color: #ff4646;
+}
+
+.button-accent:hover,
+.button-accent:focus{
+    background: #ff4646;
+    color: #ff8585;
+    border-color: #ff4646;
+}
+
+/* About */
+
+.container {
+    max-height: 90em;
+    margin: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(img/platter.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.home-about-textbox {
+    background-color: #ccafaf;
+    width: 50%;
+    height: 500px;
+    outline: 2px solid #900c3f;
+    outline-offset: -50px;
+    color: #fff; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.home-about-textbox h1 {
+    color: #900c3f;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+    background: #ccafaf;
+}
+
+p {
+    margin: auto;
+    padding: 0 70px;
+    line-height: 1.5;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: 250px;
+    background-color: #007944;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.sections {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sections a, .sections p {
+    color: #ff8585;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.footer-title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #ff4646;
+    margin-top: 0;
+}
